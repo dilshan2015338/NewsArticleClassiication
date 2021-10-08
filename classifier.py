@@ -26,7 +26,7 @@ if __name__ == '__main__':
     knn.fit(x_train, y_train)
 
     # predict for adaderana data
-    '''adaderana_pred = knn.predict(adaderana_data)
+    ''' adaderana_pred = knn.predict(adaderana_data)
     write_classified_to_path('./output/classified/adaderana', adaderana_data, adaderana_pred)
     dailymirror_pred = knn.predict(dailymirror_data)
     write_classified_to_path('./output/code/dailymirror', dailymirror_data, dailymirror_pred)
